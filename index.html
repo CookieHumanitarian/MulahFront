@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="page1">
         <!-- Title-->
         <div class="title">
             <h1>MULAH</h1>
@@ -38,6 +38,52 @@
             <p>Powered by <a href="https://www.MulahRewards.com">MulahRewards.com</a></p>
         </footer>
     </div>
+
+    <div class="container" id="page2" style="display: none;">
+        <div class="header">
+            <h1>MULAH</h1>
+        </div>
+        <div class="welcome">
+            <h2>Registration</h2>
+            <p>Please fill up your details.</p>
+        </div>
+        <form id="registration-form">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Enter Name">
+                <p>*Please insert a name.</p>
+            </div>
+            <div class="input-group">
+                <input type="text" id="day" placeholder="DD">
+                <input type="text" id="month" placeholder="MM">
+                <input type="text" id="year" placeholder="YYYY">
+                <p>*Please insert your birthday.</p>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email Address">
+                <p>*Please insert a valid email address.</p>
+                <input type="checkbox" id="no-email"> No email address
+            </div>
+            <button type="button" id="continue">Continue</button>
+        </form>
+        <footer>
+            <p>Powered by <a href="https://www.MulahRewards.com">MulahRewards.com</a></p>
+        </footer>
+    </div>
+
+    <div class="container" id="page3" style="display: none;">
+        <div class="header">
+            <h1>MULAH</h1>
+        </div>
+        <div class="welcome">
+            <h2>Welcome to Your Loyalty Points</h2>
+            <div id="user-details"></div>
+        </div>
+        <footer>
+            <p>Powered by <a href="https://www.MulahRewards.com">MulahRewards.com</a></p>
+        </footer>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
