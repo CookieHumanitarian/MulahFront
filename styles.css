@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid black ;
+    padding: 7vh;
+    text-align: center;
+    width: 100vh;
+}
+
+.title h1 {
+    color: rgb(255, 146, 29);
+}
+
+.greet h2 {
+    color: rgb(97, 96, 96);
+}
