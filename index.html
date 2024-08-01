@@ -3,65 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mulah Front</title>
+    <title>Mulah Rewards</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container" id="page1">
-        <!-- Title-->
         <div class="title">
             <h1>MULAH</h1>
         </div>
-        <!-- Body text -->
         <div class="greet">
-            <h2>Hello,</h2>
-            <h2>Welcome!</h2>
+            <h2>Hello, Welcome!</h2>
             <p>Check Your Loyalty Points & Rewards</p>
         </div>
-
-        <!-- Check form -->
-        <form id="pointForm">
-            <div class="input">
-                <!-- Country code selection-->
+        <form id="loyaltyForm">
+            <div class="inputGroup">
                 <select id="countryCode">
                     <option value="+60">+60</option>
-                    <option value="+84">+84</option>
+                    <!-- Add more country codes as needed -->
                 </select>
-
                 <input type="text" id="phoneNumber" placeholder="Enter your mobile number">
             </div>
             <button type="button" id="checkPoints">Check Loyalty Points</button>
         </form>
-
-
         <footer>
             <p>Powered by <a href="https://www.MulahRewards.com">MulahRewards.com</a></p>
         </footer>
     </div>
 
     <div class="container" id="page2" style="display: none;">
-        <div class="header">
+        <div class="title">
             <h1>MULAH</h1>
         </div>
-        <div class="welcome">
+        <div class="greet">
             <h2>Registration</h2>
             <p>Please fill up your details.</p>
         </div>
-        <form id="registration-form">
-            <div class="input-group">
+        <form id="registrationForm">
+            <div class="inputGroup">
                 <input type="text" id="name" placeholder="Enter Name">
                 <p>*Please insert a name.</p>
             </div>
-            <div class="input-group">
+            <div class="inputGroup">
                 <input type="text" id="day" placeholder="DD">
                 <input type="text" id="month" placeholder="MM">
                 <input type="text" id="year" placeholder="YYYY">
                 <p>*Please insert your birthday.</p>
             </div>
-            <div class="input-group">
+            <div class="inputGroup">
                 <input type="email" id="email" placeholder="Email Address">
                 <p>*Please insert a valid email address.</p>
-                <input type="checkbox" id="no-email"> No email address
+                <input type="checkbox" id="noEmail"> No email address
             </div>
             <button type="button" id="continue">Continue</button>
         </form>
@@ -71,12 +62,12 @@
     </div>
 
     <div class="container" id="page3" style="display: none;">
-        <div class="header">
+        <div class="title">
             <h1>MULAH</h1>
         </div>
-        <div class="welcome">
+        <div class="greet">
             <h2>Welcome to Your Loyalty Points</h2>
-            <div id="user-details"></div>
+            <div id="userDetails"></div>
         </div>
         <footer>
             <p>Powered by <a href="https://www.MulahRewards.com">MulahRewards.com</a></p>
@@ -86,4 +77,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
