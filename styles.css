@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-    border: 1px solid black ;
     padding: 7vh;
     text-align: center;
     width: 100vh;
@@ -18,4 +17,40 @@ body {
 
 .greet h2 {
     color: rgb(97, 96, 96);
+    margin: 0;
+}
+
+.greet p {
+    color: rgba(235, 126, 0, 0.88);
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 3vh;
+}
+
+select, input {
+    background-color: white;
+    color: rgb(97, 96, 96);
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+button {
+    background-color: rgb(255, 146, 29);
+    color: white;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 100px;
+}
+
+footer p {
+    color: rgb(97, 96, 96);
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
 }
