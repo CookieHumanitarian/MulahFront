@@ -1,5 +1,5 @@
 //Page 1 details
-document.getElementById('check-points').addEventListener('click', function() {
+document.getElementById('checkPoints').addEventListener('click', function() {
     const countryCode = document.getElementById('countryCode').value;
     const phoneNumber = document.getElementById('phoneNumber').value;
 
@@ -29,7 +29,7 @@ document.getElementById('continue').addEventListener('click', function() {
     var month = document.getElementById('month').value;
     var year = document.getElementById('year').value;
     var email = document.getElementById('email').value;
-    var noEmail = document.getElementById('no-email').checked;
+    var noEmail = document.getElementById('noEmail').checked;
 
     // Basic validation
     if (!name || !day || !month || !year || (!email && !noEmail)) {

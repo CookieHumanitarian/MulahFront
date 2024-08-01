@@ -58,3 +58,32 @@ footer a {
 #error-message {
     color: red;
 }
+
+@media only screen and (max-width: 640px) {
+    .container {
+        padding: 5vh;
+        width: 100%;
+    }
+    
+    button {
+        padding: 8px 40px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1136px) {
+    .container {
+        padding: 6vh;
+    }
+
+    button {
+        padding: 9px 45px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+}
